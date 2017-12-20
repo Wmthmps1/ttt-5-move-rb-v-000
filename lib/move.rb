@@ -8,7 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(index)
-  index = "#{index}".to_i-1
+  index = "#{index}".to_i
+  index=index-1
+  
 end
 
 def move(board,index,character="X")
